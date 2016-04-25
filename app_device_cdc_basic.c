@@ -137,7 +137,7 @@ void APP_DeviceCDCBasicDemoTasks()
                  * terminal program.
                  */
                 default:
-                    writeBuffer[i] = readBuffer[i] + 1;
+                    writeBuffer[i] = readBuffer[i];
                     break;
             }
         }
